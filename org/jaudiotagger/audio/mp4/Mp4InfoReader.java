@@ -334,7 +334,7 @@ public class Mp4InfoReader
 
         //This is the most likely option if cant find a match
         //if (info.getEncodingType().equals(""))
-        ///Modified
+        //##Modified
         if (TextUtils.isEmpty(info.getEncodingType()))
         {
             info.setEncodingType(EncoderType.AAC.getDescription());

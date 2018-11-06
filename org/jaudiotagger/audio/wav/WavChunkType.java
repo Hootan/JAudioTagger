@@ -39,7 +39,7 @@ public enum WavChunkType
         }
         WavChunkType t = CODE_TYPE_MAP.get(code);
 
-        ///Modified it should be ID3 not id3
+        //##Modified it should be ID3 not id3
         if (t == null && code.equalsIgnoreCase("id3 "))
             t = CODE_TYPE_MAP.get(code.toLowerCase());
 

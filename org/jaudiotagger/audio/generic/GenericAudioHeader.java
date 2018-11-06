@@ -73,7 +73,7 @@ public class GenericAudioHeader implements AudioHeader
      */
     public double getBitRateAsNumber()
     {
-        ///Modified
+        //##Modified
         return bitRate != null ? bitRate : -1;
     }
 
@@ -421,7 +421,7 @@ public class GenericAudioHeader implements AudioHeader
         this.audioDataEndPosition = audioDataEndPosition;
     }
 
-    ///Modified
+    //##Modified
     @Override
     public String getBitRatesStr() {
         return null;

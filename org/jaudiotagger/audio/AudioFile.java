@@ -97,7 +97,7 @@ public class AudioFile
         this.audioHeader = audioHeader;
         this.tag = tag;
 
-        ///Modified
+        //##Modified
         this.isAudio = !"wmv".equalsIgnoreCase(provider.extension());
     }
 
@@ -482,7 +482,7 @@ public class AudioFile
         return null;
     }
 
-    ///Modified
+    //##Modified
     public void setTagValues(String[] values, FileSystemProvider provider, boolean single,
                              boolean removeCover, boolean addCover) throws Throwable {
         //we need other tags

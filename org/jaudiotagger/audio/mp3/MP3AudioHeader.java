@@ -879,7 +879,7 @@ public class MP3AudioHeader implements AudioHeader
         this.audioDataEndPosition = audioDataEndPosition;
     }
 
-    ///Modified
+    //##Modified
     @Override
     public String getBitRatesStr() {
         return null;

@@ -77,7 +77,7 @@ public interface AudioHeader
      */
     public String getChannels();
 
-    ///Modified
+    //##Modified
     public int getChannelMode();
 
     /**
@@ -114,10 +114,10 @@ public interface AudioHeader
      */
     public Long getNoOfSamples();
 
-    ///Modified for mp3
+    //##Modified for mp3
     String getBitRatesStr();
 
-    ///Modified for video header
+    //##Modified for video header
     String getVideoCodecIdAsString();
     int getPictureWidth();
     int getPictureHeight();

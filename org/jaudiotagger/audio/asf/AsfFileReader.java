@@ -144,7 +144,7 @@ public class AsfFileReader extends AudioFileReader
             info.setBitsPerSample(audioChunk.getBitsPerSample());
         }
 
-        ///Modified
+        //##Modified
         final Collection<Chunk> streamChunks = header.getChunks();
         for (Chunk chunk : streamChunks) {
             if (chunk instanceof VideoStreamChunk) {
