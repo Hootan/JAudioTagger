@@ -3,7 +3,7 @@ A modified version of JAudioTagger library for MiXplorer (An Android file manage
 
 
 ## Changes
-I've made many changes. All changes tagged with '//Modified'.
+I've made many changes. All changes tagged with '//Modifiedd'.
 
 
 
