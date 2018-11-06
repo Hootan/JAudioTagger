@@ -1,5 +1,5 @@
 # JAudioTagger
-A modified version of JAudioTagger library for MiXplorer (An Android file manager).
+A modified version of JAudioTagger library for MiXplorer file manager.
 
 
 ## Changes
