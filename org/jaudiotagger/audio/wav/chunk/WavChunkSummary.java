@@ -65,7 +65,7 @@ public class WavChunkSummary
             if(firstMetadataTag)
             {
                 if(
-                        //##Modified
+                        //Modifiedd
                         !cs.getChunkId().equalsIgnoreCase(WavChunkType.ID3_NEW.getCode()) &&
 
                         !cs.getChunkId().equals(WavChunkType.LIST.getCode()) &&

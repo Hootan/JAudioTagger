@@ -68,7 +68,7 @@ public class WavInfoTag extends GenericTag
                 FieldKey.ENCODER,
                 FieldKey.CONDUCTOR,
                 FieldKey.RATING,
-                //##Modified
+                //Modifiedd
                 FieldKey.COPYRIGHT,
                 FieldKey.DISC_NO,
                 FieldKey.LYRICS

@@ -124,7 +124,7 @@ public class WavTagWriter
         final ChunkHeader chunkHeader = new ChunkHeader(ByteOrder.LITTLE_ENDIAN);
         chunkHeader.readHeader(fc);
         fc.position(fc.position() - ChunkHeader.CHUNK_HEADER_SIZE);
-        //##Modified
+        //Modifiedd
         if (!WavChunkType.ID3_NEW.getCode().equalsIgnoreCase(chunkHeader.getID()))
         {
             throw new CannotWriteException(loggingName + " Unable to find ID3 chunk at original location has file been modified externally");

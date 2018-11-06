@@ -668,7 +668,7 @@ public abstract class AudioFileWriter
             logger.warning(ErrorMessage.GENERAL_WRITE_FAILED_NEW_FILE_DOESNT_EXIST.getMsg(newProvider.getAbsolutePath()));
         }
     }*/
-    //##Modified
+    //Modifiedd
     private void transferNewFileToNewOriginalFile(final FileSystemProvider newProvider, final FileSystemProvider originalProvider) throws CannotWriteException
     {
         // get original creation date

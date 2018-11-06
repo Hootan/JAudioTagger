@@ -282,7 +282,7 @@ public class WavTag implements Tag, Id3SupportingTag
      */
     public void setField(TagField field) throws FieldDataInvalidException
     {
-        //##Modified for Artwork
+        //Modifiedd for Artwork
         if (field instanceof AbstractID3v2Frame)
             id3Tag.setField(field);
         else
@@ -369,7 +369,7 @@ public class WavTag implements Tag, Id3SupportingTag
      */
     public TagField createField(Artwork artwork) throws FieldDataInvalidException {
         //return getActiveTag().createField(artwork);
-        //##Modified
+        //Modifiedd
         if (id3Tag != null)
             return id3Tag.createField(artwork);
         return null;
@@ -392,7 +392,7 @@ public class WavTag implements Tag, Id3SupportingTag
      */
     public void deleteArtworkField() throws KeyNotFoundException {
         //getActiveTag().deleteArtworkField();
-        //##Modified
+        //Modifiedd
         if (id3Tag != null)
             id3Tag.deleteArtworkField();
     }

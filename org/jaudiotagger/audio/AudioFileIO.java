@@ -306,7 +306,7 @@ public class AudioFileIO
         readers.put(SupportedFileFormat.M4B.getFilesuffix(), new Mp4FileReader());
         readers.put(SupportedFileFormat.WAV.getFilesuffix(), new WavFileReader());
         readers.put(SupportedFileFormat.WMA.getFilesuffix(), new AsfFileReader());
-        //##Modified
+        //Modifiedd
         readers.put(SupportedFileFormat.WMV.getFilesuffix(), new AsfFileReader());
         readers.put(SupportedFileFormat.AIF.getFilesuffix(), new AiffFileReader());
         readers.put(SupportedFileFormat.AIFC.getFilesuffix(), new AiffFileReader());
@@ -326,7 +326,7 @@ public class AudioFileIO
         writers.put(SupportedFileFormat.M4B.getFilesuffix(), new Mp4FileWriter());                
         writers.put(SupportedFileFormat.WAV.getFilesuffix(), new WavFileWriter());
         writers.put(SupportedFileFormat.WMA.getFilesuffix(), new AsfFileWriter());
-        //##Modified
+        //Modifiedd
         writers.put(SupportedFileFormat.WMV.getFilesuffix(), new AsfFileWriter());
         writers.put(SupportedFileFormat.AIF.getFilesuffix(), new AiffFileWriter());
         writers.put(SupportedFileFormat.AIFC.getFilesuffix(), new AiffFileWriter());
@@ -361,7 +361,7 @@ public class AudioFileIO
         //really?!
         //checkFileExists(f);
 
-        //##Modified toLowerCase
+        //Modifiedd toLowerCase
         String ext = provider.extension().toLowerCase();
 
         AudioFileReader afr = readers.get(ext);
